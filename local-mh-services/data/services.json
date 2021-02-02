@@ -1,0 +1,64 @@
+{
+	  "countries": [
+		{
+		  "country_name": {
+			"local": "Australia",
+			"english": "Australia"
+		  },
+		  "iso_code": "AU",
+		  "services": [
+			{
+			  "name": "National emergency number",
+			  "telephone": "000",
+			  "notes": "Free call for life-threatening emergencies."
+			},
+			{
+			  "name": "Lifeline Australia",
+			  "telephone": {
+				"number": "131444",
+				"start_gmt": "00:00:00+00:00",
+				"end_gmt": "23:59:59+00:00",
+				"days": {
+				  "su": true,
+				  "mo": true,
+				  "tu": true,
+				  "we": true,
+				  "th": true,
+				  "fr": true,
+				  "sa": true
+				}            
+			  },
+			  "notes": "24-hour nationwide service that provides access to crisis support, suicide prevention and mental health support services.",
+			  "chat": {
+				"url": "https://www.lifeline.org.au/crisis-chat/",
+				"start_gmt": "08:00:00+00:00",
+				"end_gmt": "13:00:00+00:00",
+				"days": {
+				  "su": true,
+				  "mo": true,
+				  "tu": true,
+				  "we": true,
+				  "th": true,
+				  "fr": true,
+				  "sa": true
+				}
+			  },
+			  "sms": {
+				"url": "https://www.lifeline.org.au/crisis-text/",
+				"start_gmt": "01:00:00+00:00",
+				"end_gmt": "13:00:00+00:00",
+			  "days": {
+				  "su": true,
+				  "mo": true,
+				  "tu": true,
+				  "we": true,
+				  "th": true,
+				  "fr": true,
+				  "sa": true
+				}
+			  }
+			}
+		  ]
+		}
+	  ]
+	}
